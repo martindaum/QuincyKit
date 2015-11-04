@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
 
   s.ios.source_files   =  'client/iOS/*.{h,m}'
   s.ios.resource       =  'client/iOS/Quincy.bundle'
-  s.ios.frameworks     =  'SystemConfiguration', 'CrashReporter'
+  s.ios.frameworks     =  'SystemConfiguration'
   s.ios.xcconfig       =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/QuincyKit/client/iOS"' }
-  s.ios.preserve_paths =  'client/iOS/CrashReporter.framework'
+  s.ios.dependency = 'PLCrashReporter', '1.2'
 
   s.osx.source_files   =  'client/Mac/*.{h,m}'
   s.osx.resource       =  'client/Mac/BWQuincyMain.nib'
