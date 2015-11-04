@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary            =  'Live crash report management for iOS and Mac OS X. AppStore ready!.'
   s.homepage           =  'https://github.com/TheRealKerni/QuincyKit'
   s.author             =  { 'Andreas Linde' => 'mail@andreaslinde.de' }
-  s.source             =  { :git => 'https://github.com/martindaum/QuincyKit.git', commit: '8aff4b7' }
+  s.source             =  { :git => 'https://github.com/martindaum/QuincyKit.git', commit: '2c457f6' }
 
   s.ios.source_files   =  'client/iOS/*.{h,m}'
   s.ios.resource       =  'client/iOS/Quincy.bundle'
