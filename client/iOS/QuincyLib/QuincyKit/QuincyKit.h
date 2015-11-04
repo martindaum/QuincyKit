@@ -17,3 +17,5 @@ FOUNDATION_EXPORT const unsigned char QuincyKitVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <QuincyKit/PublicHeader.h>
 
 #import <QuincyKit/BWQuincyManager.h>
+#import <QuincyKit/BWQuincyManagerDelegate.h>
+#import <QuincyKit/BWCrashReportTextFormatter.h>
